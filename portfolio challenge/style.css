@@ -1,0 +1,312 @@
+* {
+font-family:  sans-serif;
+ color: darkslategray;
+}
+#aboutme{
+    background-color: #DBD3D8;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    font-family:  sans-serif;
+    color: darkslategray;
+}
+
+.game{
+    background-color:    #DBD3D8  ;
+    padding: 100px 100px 100px 100px
+}
+
+.card{
+    width: 45%;
+    margin: 25px;
+}
+
+.paragraph {
+    width: 45%;
+    margin: 25px;
+}
+
+.contact {
+      
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family:  sans-serif;
+    color: darkslategray;
+    
+    padding: 50px 50px 50px 50px;
+ 
+}
+
+.intro {
+    background-color: #DDBEA9; 
+    text-align: center;
+    padding: 50px;
+}
+
+
+.name {
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+    padding:  50px 50px 50px 50px;
+    background-color: #DBD3D8 ;
+
+}
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 75px;
+    
+}
+.flex-row{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.week2 {
+    background-color: #DBD3D8;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    text-align: center;
+    
+   
+}
+
+.title{
+text-align: center;
+
+}
+h2 {
+    font-size: 30px;
+    font-family:  sans-serif;
+    color: darkslategray;
+    padding: 20px 20px 20px 20px;
+} 
+
+.trelloimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 50px 50px 50px 50px;
+   
+}
+.Trellolink {
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+
+.week2{
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+}
+
+.nology {
+    background-color: #DBD3D8 ;
+    font-size: large;
+    font-family:  sans-serif;
+    color: darkslategray;
+    text-align: center
+    padding 50px 50px 50px 50px
+    
+
+}
+
+main-timeline{
+    font-family: sans-serif;
+    position: relative;
+   
+}
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{
+    width: 50%;
+    font-size: large;
+    font-family:  sans-serif;
+    float: left;
+}
+.main-timeline .timeline-content{
+    background: #DBD3D8;
+    padding: 30px 85px 30px 30px;
+    margin: 0 10px 20px 0;
+    display: block;
+    position: relative;
+    z-index: 1;
+    font-family: sans-serif;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-content:before,
+.main-timeline .timeline-content:after{
+    content: '';
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 0 40px;
+    position: absolute;
+    left: 0;
+    right: 55px;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.main-timeline .timeline-content:after{
+    background-color: #DBD3D8 ;
+    box-shadow: -10px -10px 0 rgba(0,0,0,0.1) inset;
+    left: 10px;
+    top: 10px;
+}
+.main-timeline .timeline-year{
+    color: #A5A58D;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 25px;
+    transform: translateY(-50%) rotate(-90deg);
+    position: absolute;
+    right: -9px;
+    top: 50%;
+}
+.main-timeline .title{
+    color:  #DBD3D8;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+}
+.main-timeline .description{
+    color: darkslategrey;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin: 0;
+    font-family: sans-serif;
+}
+.main-timeline .timeline:nth-child(even){
+    float: right;
+    margin: 0 0 20px 10px;
+}
+.main-timeline .timeline:nth-child(even) .timeline-content{ padding: 30px 35px 30px 85px; }
+.main-timeline .timeline:nth-child(even) .timeline-content:before,
+.main-timeline .timeline:nth-child(even) .timeline-content:after{
+    left: 55px;
+    right: 0;
+}
+.main-timeline .timeline:nth-child(even) .timeline-content:after{
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1) inset;
+    top: 0;
+    bottom: 10px;
+    left: 55px;
+    right: 10px;
+}
+.main-timeline .timeline:nth-child(even) .timeline-year{
+    right: auto;
+    left: -16px;
+}
+.main-timeline .timeline:nth-child(4n+2) .timeline-content{ background-color:  #DBD3D8; }
+.main-timeline .timeline:nth-child(4n+2) .title{ color:  #DBD3D8; }
+.main-timeline .timeline:nth-child(4n+3) .timeline-content{ background-color:  #DBD3D8 ; }
+.main-timeline .timeline:nth-child(4n+3) .title{ color:  #DBD3D8; }
+.main-timeline .timeline:nth-child(4n+4) .timeline-content{ background-color: #009BBA; }
+.main-timeline .timeline:nth-child(4n+4) .title{ color: #009BBA; }
+@media screen and (max-width:767px){
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even){
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+@media screen and (max-width:576px){
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(even) .timeline-content{
+        text-align: center;
+        padding: 75px 30px 30px;
+    }
+    .main-timeline .timeline-content:before,
+    .main-timeline .timeline:nth-child(even) .timeline-content:before{
+        top: 50px;
+        right: 0;
+        left: 0;
+    }
+    .main-timeline .timeline-content:after,
+    .main-timeline .timeline:nth-child(even) .timeline-content:after{
+        box-shadow: -10px -10px 0 rgba(0,0,0,0.1) inset;
+        top: 60px;
+        right: 0;
+        left: 10px;
+        bottom: 0;
+    }
+    .main-timeline .timeline-year,
+    .main-timeline .timeline:nth-child(even) .timeline-year{
+        transform: translateX(-50%) translateY(0) rotate(0);
+        top: 12px;
+        right: auto;
+        left: 50%;
+    }
+    .main-timeline .title{ font-size: 20px; }
+}
+
+#containergame {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .play-area {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    
+  }
+  .block {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 3px solid black;
+
+  }
+.block:hover {
+    background-color: lightgrey;
+}
+
+.reset {
+  align-items: center;
+  justify-content: center;
+  background-color:#DBD3D8;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.card{
+    text-align: center;
+    background-color:#DBD3D8;
+    justify-content: center;
+
+}
+
+.game{
+    text-align: center;
+
+}
+
+.play-area {
+    justify-content: center;
+    text-align: center;
+    
+}   
